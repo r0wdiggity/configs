@@ -82,7 +82,16 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH=$PATH:/opt/metasploit-framework/bin
+alias subl='/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text'
+export PATH="$PATH:$HOME/bin"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+# MacPorts Installer addition on 2018-02-18_at_14:17:59: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+
+alias java8='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home'
+alias java11='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home'
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
