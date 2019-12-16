@@ -3,3 +3,6 @@
 Contains:
 1. zshrc info
 2. oh-my-zsh setup
+3. gdb
+4. vimrc
+5. st
